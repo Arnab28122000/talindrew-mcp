@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.talindrew/mcp",
+  "title": "Talindrew: molecular biology tools",
+  "description": "90 molecular biology tools: plasmid maps, digests, primers, CRISPR, cloning, PubMed, lab notebook.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.talindrew.com/mcp",
+  "repository": {
+    "url": "https://github.com/Arnab28122000/talindrew-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.talindrew.com/mcp"
+    }
+  ]
+}
